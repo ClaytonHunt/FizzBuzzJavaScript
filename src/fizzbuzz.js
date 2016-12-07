@@ -4,18 +4,16 @@ var module = module || {};
     'use strict';
 
     module.fizzbuzz = function(x) {
-        if(x == 15) {
-            return 'fizzbuzz';
-        }
+        var result = '';
 
         if(x % 3 === 0) {
-            return 'fizz';
+            result += 'fizz';
         }
 
         if(x % 5 === 0) {
-            return 'buzz';
+            result += 'buzz';
         }
 
-        return x;
+        return result || x;
     };
 }());
