@@ -21,6 +21,10 @@
             it('returns fizz for 3', function() {
                 expect(fb(3)).toBe('fizz');
             });
+
+            it('returns fizz for 6', function() {
+                expect(fb(6)).toBe('fizz');
+            });
         });
     });
 }(module.fizzbuzz));
