@@ -8,6 +8,10 @@ var module = module || {};
             return 'fizz';
         }
 
+        if(x === 5) {
+            return 'buzz';
+        }
+
         return x;
     };
 }());

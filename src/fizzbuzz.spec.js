@@ -26,5 +26,11 @@
                 expect(fb(6)).toBe('fizz');
             });
         });
+
+        describe('Buzz', function() {
+            it('returns buzz for 5', function() {
+                expect(fb(5)).toBe('buzz');
+            });
+        });
     });
 }(module.fizzbuzz));
