@@ -11,6 +11,10 @@
             it('returns one for one', function() {
                 expect(fb(1)).toBe(1);
             });
+
+            it('retunrs two for two', function() {
+                expect(fb(2)).toBe(2);
+            });
         });
     });
 }(module.fizzbuzz));

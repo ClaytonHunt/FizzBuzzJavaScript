@@ -4,6 +4,6 @@ var module = module || {};
     'use strict';
 
     module.fizzbuzz = function(x) {
-        return 1;
+        return x;
     };
 }());
