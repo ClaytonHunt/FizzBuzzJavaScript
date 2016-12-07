@@ -16,5 +16,11 @@
                 expect(fb(2)).toBe(2);
             });
         });
+
+        describe('Fizz', function() {
+            it('returns fizz for 3', function() {
+                expect(fb(3)).toBe('fizz');
+            });
+        });
     });
 }(module.fizzbuzz));
