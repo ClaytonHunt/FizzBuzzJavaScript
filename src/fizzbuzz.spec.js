@@ -31,6 +31,10 @@
             it('returns buzz for 5', function() {
                 expect(fb(5)).toBe('buzz');
             });
+
+            it('returns buzz for 10', function() {
+                expect(fb(10)).toBe('buzz');
+            });
         });
     });
 }(module.fizzbuzz));
