@@ -41,6 +41,10 @@
             it('returns fizzbuzz for 15', function() {
                 expect(fb(15)).toBe('fizzbuzz');
             });
+
+            it('returns fizzbuzz for 30', function() {
+                expect(fb(30)).toBe('fizzbuzz');
+            });
         });
     });
 }(module.fizzbuzz));
