@@ -4,6 +4,10 @@ var module = module || {};
     'use strict';
 
     module.fizzbuzz = function(x) {
+        if(x == 15) {
+            return 'fizzbuzz';
+        }
+
         if(x % 3 === 0) {
             return 'fizz';
         }

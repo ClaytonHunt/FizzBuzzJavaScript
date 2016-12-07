@@ -36,5 +36,11 @@
                 expect(fb(10)).toBe('buzz');
             });
         });
+
+        describe('FizzBuzz', function() {
+            it('returns fizzbuzz for 15', function() {
+                expect(fb(15)).toBe('fizzbuzz');
+            });
+        });
     });
 }(module.fizzbuzz));
